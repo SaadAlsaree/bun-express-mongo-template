@@ -5,10 +5,11 @@ import { BullAdapter } from '@bull-board/api/bullAdapter';
 
 import { ExpressAdapter } from '@bull-board/express';
 import { config } from '@root/config';
+import type { IValueJob } from '@value/interfaces/value.interface';
 
 
 
-type IBaseJobData = any;
+type IBaseJobData = IValueJob;
 
 let bullAdapter: BullAdapter[] = [];
 

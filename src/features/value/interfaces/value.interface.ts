@@ -6,3 +6,11 @@ export interface IValue extends Document {
   value: number;
   name: string;
 }
+
+
+export interface IValueJob {
+  _id?: string;
+  key?: string;
+  value?: number;
+  name?: string;
+}
